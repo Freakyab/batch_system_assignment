@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  height: 80vh;
+  padding: 1rem 0;
+  .leftContainer {
+    left: 10%;
+    text-transform: capitalize;
+    width: 50%;
+    position: relative;
+    padding: 1rem 0;
+    .title {
+      text-transform: uppercase;
+      color: var(--text-color);
+    }
+    .question {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+    .advantagetitle {
+      font-size: 1.2rem;
+      font-weight: 700;
+      padding: 1rem 0;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .advantageDesc {
+      width: 80%;
+      padding: 1rem 0;
+      font-size: 1rem;
+      font-weight: 300;
+    }
+  }
+  .rightContainer {
+    width: 50%;
+    position: relative;
+    .starIcon {
+      //   transform: translate(20px, 10px) rotate(40deg);
+      position: absolute;
+      right: 10%;
+    }
+    .iphone3Image {
+      position: absolute;
+      left: 25%;
+      transform: rotate(15deg);
+      top: 0;
+      z-index: 1;
+    }
+    .ringsImage {
+      position: absolute;
+      left: 15%;
+      top: 0;
+    }
+    .backImage {
+      transform: rotate(180deg);
+      position: absolute;
+      left: 5%;
+    }
+  }
+}

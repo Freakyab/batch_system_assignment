@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  height: 80vh;
+  padding: 1rem 0;
+  flex-direction: row-reverse;
+  position: relative;
+  .starIcon2 {
+    position: absolute;
+    bottom: 20%;
+    right: 15%;
+  }
+  .leftContainer {
+    left: 10%;
+    text-transform: capitalize;
+    width: 70%;
+    position: relative;
+    padding: 1rem 0;
+    .advantagetitle {
+      font-size: 1.2rem;
+      font-weight: 700;
+      padding: 1rem 0;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .advantageDesc {
+      width: 60%;
+      padding: 1rem 0;
+      font-size: 1rem;
+      font-weight: 300;
+    }
+  }
+  .rightContainer {
+    width: 50%;
+    position: relative;
+    .starIcon1 {
+      transform: rotate(-30deg);
+      position: absolute;
+      right: 10%;
+    }
+    .iphone3Image {
+      position: absolute;
+      left: 25%;
+      transform: rotate(15deg);
+      top: 0;
+      z-index: 1;
+    }
+    .ringsImage {
+      position: absolute;
+      left: 15%;
+      top: 0;
+    }
+    .backImage {
+      transform: rotate(180deg);
+      position: absolute;
+      left: 5%;
+    }
+  }
+}

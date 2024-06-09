@@ -1,0 +1,35 @@
+.conatiner {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  .starImage1 {
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    transform: rotate(-20deg);
+    z-index: 1;
+  }
+  .starImage2 {
+    position: absolute;
+    right: 5%;
+    top: 0;
+    z-index: 1;
+  }
+  .wrapper {
+    position: relative;
+    .backgroundImage {
+      position: absolute;
+       transform: translate(-50%, -40%);
+    }
+    .promoAdImage {
+      width: 100%;
+      height: 500px;
+      position: relative;
+      z-index: 2;
+    }
+  }
+}

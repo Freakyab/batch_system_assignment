@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: 100%;
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  .svgIcon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  p {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  .wrapper {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    text-transform: capitalize;
+    .contact {
+      .contactDesc {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0;
+      }
+    }
+    .newsLetter {
+      .input {
+        display: flex;
+        button {
+          background: #000;
+          padding: 1rem 2rem;
+          color: #fff;
+          text-transform: capitalize;
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+  .borderLine {
+    border-radius: 100%;
+    width: 70%;
+    height: 1px;
+    margin: 2rem;
+    background: #000;
+  }
+}

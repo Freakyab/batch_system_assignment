@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  height: 90vh;
+  padding: 1rem 0;
+  .leftContainer {
+    width: 50%;
+    position: relative;
+    .starIcon {
+      transform: translate(20px, 10px) rotate(40deg);
+      position: absolute;
+      left: 0;
+    }
+    .iphone3Image {
+      position: absolute;
+      left: 25%;
+      transform: rotate(15deg);
+      top: 0;
+      z-index: 1;
+    }
+    .ringsImage {
+      position: absolute;
+      left: 15%;
+      top: 0;
+    }
+    .backImage {
+      transform: rotate(180deg);
+      position: absolute;
+      left: 5%;
+    }
+  }
+  .rightContainer {
+    text-transform: capitalize;
+    position: relative;
+
+    .title {
+      text-transform: uppercase;
+      color: var(--text-color);
+    }
+    .substitle {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    div {
+      padding: 1rem 0;
+      .featureTitle {
+        font-size: 1.2rem;
+        font-weight: 700;
+        display: inline-flex ;
+        justify-content: center;
+        align-items: center;
+        gap : .5rem;
+        span{
+          color: var(--text-color);
+        
+        }
+      }
+      .featureDesc {
+        width: 60%;
+        padding: 1rem 0;
+        font-size: 1rem;
+        font-weight: 300;
+      }
+      .backImage{
+        position: absolute;
+        right: -20%;
+        top: 0;
+      }
+    }
+  }
+}
