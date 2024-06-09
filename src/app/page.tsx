@@ -11,15 +11,15 @@ import Footer from "./components/Footer/footer";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col">
-      {/* <Navbar /> */}
+      <Navbar />
       <HeroSection />
-      {/* <Section2 />
+      <Section2 />
       <Section3 />
       <Section4 />
       <Testimonial />
       <Faq />
       <PromoAd />
-      <Footer /> */}
+      <Footer />
     </main>
   );
 }
